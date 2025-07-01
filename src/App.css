@@ -1,0 +1,47 @@
+.counter-container {
+  text-align: center;
+  width: 500px;
+  padding: 20px;
+  margin: 100px auto;
+  background-color: beige;
+  border-radius: 10px;
+}
+
+h2{
+  font-size: xx-large;
+}
+
+.counter-display {
+  font-size: xx-large;
+  margin-bottom: 40px;
+  text-decoration: solid;
+  font-weight: lighter;
+}
+
+.btn {
+  display: inline-block;
+  margin: 0 auto;
+  margin-left: 5px;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.increment {
+  background-color: teal;
+  transition: background-color 0.3s ease;
+}
+
+.decrement {
+  background-color: deeppink;
+  transition: background-color 0.3s ease;
+}
+
+.reset {
+  background-color: maroon;
+  transition: background-color 0.3s ease;
+}
+
